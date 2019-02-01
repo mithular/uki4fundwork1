@@ -12,17 +12,5 @@ $(document).ready(function() {
                    sound.stop();
                  });
 
-               });
-                })
-                 SC.stream('/tracks/506993319',function(sound){
-                 $('#start2').click(function(e) {
-                            e.preventDefault();
-                            sound.start();
-                          });
-                          $('#stop2').click(function(e) {
-                                   e.preventDefault();
-                                   sound.stop();
-                                 });
-
 });
  });
